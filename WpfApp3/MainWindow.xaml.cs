@@ -230,10 +230,10 @@ namespace WpfApp3
             {
                 // Create a connection string with SQL Server Authentication
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "DESKTOP-2OB9L2I\\SQLEXPRESS";
-                builder.InitialCatalog = "work2";
-                builder.UserID = "sa";
-                builder.Password = "Dogtooth21!";
+                builder.DataSource = "";
+                builder.InitialCatalog = "";
+                builder.UserID = "";
+                builder.Password = "!";
                 builder.TrustServerCertificate = true;
                 builder.IntegratedSecurity = false; // Turn off Windows Authentication
 
